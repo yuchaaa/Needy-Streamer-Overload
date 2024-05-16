@@ -8,7 +8,7 @@ AntiAlias=1
 
 [WindowTitles]
 Meter=STRING
-Text="Notice"
+Text="お知らせ"
 FontFace=DinkieBitmap 7px
 X=34
 Y=14
@@ -31,7 +31,7 @@ FillColor=FillColor 0,0,0,255
 Meter=String
 X=200
 Y=65
-Text=Due to its sprite animation, this skin may cause high CPU usage on low-end machines.#CRLF##CRLF#If you are worried about CPU Usage, feel free to close the skin at any time.
+Text=スプライトアニメーションの影響で、ローエンドPCではCPU使用率が高くなる可能性があります。#CRLF##CRLF#使用率が気になる場合、いつでも自由に閉じることができます。
 clipString = 2
 W=360
 StringAlign=Center
@@ -51,7 +51,7 @@ LeftMouseUpAction=[!WriteKeyValue Variables @Include2 Scene\Ame.inc][Play "#@#Au
 Meter=String
 X=202
 Y=239
-Text=Start Ame
+Text=あめちゃんに会う
 clipString = 2
 W=360
 StringAlign=Center

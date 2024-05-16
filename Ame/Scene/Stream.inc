@@ -25,7 +25,7 @@ AntiAlias=1
 
 [WindowTitles]
 Meter=STRING
-Text="Stream"
+Text="はいしん"
 FontFace=DinkieBitmap 7px
 X=34
 Y=14
@@ -105,10 +105,6 @@ Plugin=FolderInfo
 Folder=#@#\Images\Ame\sprites\stream\[Stream]\
 InfoType=FolderCount
 DynamicVariables=1
-
-[NumberOfSectionsZero]
-Measure=Calc
-Formula=NumberOfSections-1
 
 [Section]
 Measure=Calc

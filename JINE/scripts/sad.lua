@@ -1,16 +1,16 @@
 function Initialize()
     -- add a new ame JINE chat here.
         a = {
-                "stop crying idiot!!!",
-                "youre gonna make me cry too :(",
-                "ugh that face pisses me off",
-                "im gonna punch you",
-                "you wont get out of this by crying!",
-                "ugh",
-                "i hate that sticker",
-                ";-;",
-                "spare me the tears.",
-                 "dont :( me ill punch you!!!",
+                "泣くなバカタレ！！",
+                "あめちゃんも泣こうかな ぴえん",
+                "腹立つ顔しやがって！",
+                "殴るぞ！",
+                "泣けばいいと思ってるのか！？",
+                "ウザっ",
+                "むかつく！",
+                "（；；）",
+                "泣けば済むもんじゃないんやで？",
+                 "うぜーーーーーーーー",
             }
 end
 

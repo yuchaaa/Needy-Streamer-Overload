@@ -20,7 +20,7 @@ AntiAlias=1
 
 [WindowTitles]
 Meter=STRING
-Text="Transform!"
+Text="へんしん"
 FontFace=DinkieBitmap 7px
 LeftMouseUpAction=[!SetOption Transformation Path "#@#\Images\Ame\transformation_dark"][!SetOption Animation Close """[!CommandMeasure ActionTimer "Stop 1"][!WriteKeyValue Variables @Include2 "Scene\DarkStream.inc"][!Refresh]"""][!UpdateMeasure Animation][!Redraw]
 X=34
@@ -33,7 +33,7 @@ Meter=IMAGE
 X=(#Width# - 16)
 Y=11
 ImageName=#@#Images\button_close.png
-LeftMouseUpAction=[!CommandMeasure ActionTimer "Stop 1"][Play "#@#\Audio\open.wav"][!WriteKeyValue Variables @Include2 "Scene\Stream.inc"][!Refresh]
+LeftMouseUpAction=[!SetOption ImageNumberCalc Formula 0][!SetOption Ame Path "#@#Images\Ame\sprites\"][!WriteKeyValue Variables @Include2 "Scene\Ame.inc"][Play "#@#Audio\endHaishin.wav"][!Redraw][!RainmeterDeactivateConfig]
 
 ; ===== Transition Animation =====
 
