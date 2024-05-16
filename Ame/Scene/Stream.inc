@@ -106,10 +106,6 @@ Folder=#@#\Images\Ame\sprites\stream\[Stream]\
 InfoType=FolderCount
 DynamicVariables=1
 
-[NumberOfSectionsZero]
-Measure=Calc
-Formula=NumberOfSections-1
-
 [Section]
 Measure=Calc
 Formula=0
