@@ -25,7 +25,7 @@ AntiAlias=1
 
 [WindowTitles]
 Meter=STRING
-Text="Webcam"
+Text="webcam"
 FontFace=DinkieBitmap 7px
 X=34
 Y=14
@@ -165,7 +165,7 @@ Group=Activity
 
 [ActivityWindowTitle]
 Meter=STRING
-Text="Activities"
+Text="������"
 FontFace=DinkieBitmap 7px
 X=(34 + #ActivityWindowOffset#)
 Y=(14 + #ActivityWindowOffset#)
@@ -185,7 +185,7 @@ Group=Activity
 
 [ActivitiesText]
 Meter=STRING
-Text="Activities"
+Text="������"
 FontFace=Zpix
 FontColor=77,35,207
 X=(130 + #ActivityWindowOffset#)
@@ -205,7 +205,7 @@ Group=Activity
 
 [GameLabel]
 Meter=STRING
-Text="Play Game"
+Text="�Q�[��"
 FontFace=DinkieBitmap 7px
 X=33r
 Y=6R
@@ -226,7 +226,7 @@ Group=Activity
 
 [MovieLabel]
 Meter=STRING
-Text="Streaming#CRLF#Service"
+Text="����T�C�g"
 FontFace=DinkieBitmap 7px
 X=33r
 Y=6R
@@ -247,7 +247,7 @@ Formula=[CheckHour]
 ifCondition = (CheckTime > 18) || (CheckTime < 6)
 ; ifCondition = (CheckTime >= 0) || (CheckTime <= 24)
 ifTrueAction = [!SetOption Stream LeftMouseUpAction """[Play "#@#Audio\execute.wav"][!HideMeterGroup Activity][!WriteKeyValue Variables @Include2 "Scene\Transition.inc"][!Refresh]"""][!SetOption Stream Greyscale 0][!UpdateMeter Stream][!Redraw]
-ifFalseAction=[!SetOption Stream Greyscale 1][!SetOption Stream LeftMouseUpAction """[Play "#@#\Audio\open.wav"][!ShowMeterGroup StreamDay][!HideMeterGroup Activity][!Redraw]"""]
+ifFalseAction=[!SetOption Stream Greyscale 1][!SetOption Stream LeftMouseUpAction """[Play "#@#\Audio\open.wav"][!ShowMeterGroup StreamDay][!Redraw]"""]
 
 [Stream]
 Meter=Image
@@ -260,7 +260,7 @@ Group=Activity
 
 [StreamLabel]
 Meter=STRING
-Text="Stream"
+Text="�͂�����"
 FontFace=DinkieBitmap 7px
 X=33r
 Y=6R
@@ -281,7 +281,7 @@ Group=Activity
 
 [IdleLabel]
 Meter=STRING
-Text="Idle"
+Text="���炯��"
 FontFace=DinkieBitmap 7px
 X=33r
 Y=6R
@@ -296,8 +296,8 @@ Group=Activity
 [StreamDayWindow]
 Meter=IMAGE
 ImageName=#@#Images\Ame\menu\window_streamday.png
-X=#ActivityWindowOffset#
-Y=#ActivityWindowOffset#
+X=#StreamDayWindowOffset#
+Y=#StreamDayWindowOffset#
 AntiAlias=1
 Hidden=1
 Group=StreamDay
@@ -306,8 +306,8 @@ Group=StreamDay
 Meter=STRING
 Text="Stream"
 FontFace=DinkieBitmap 7px
-X=(34 + #ActivityWindowOffset#)
-Y=(14 + #ActivityWindowOffset#)
+X=(34 + #StreamDayWindowOffset#)
+Y=(14 + #StreamDayWindowOffset#)
 FontSize=12
 FontColor=77,35,207
 Hidden=1
@@ -315,17 +315,17 @@ Group=StreamDay
 
 [StreamDayClose]
 Meter=IMAGE
-X=(472 + #ActivityWindowOffset#)
-Y=(11 + #ActivityWindowOffset#)
+X=(472 + #StreamDayWindowOffset#)
+Y=(11 + #StreamDayWindowOffset#)
 ImageName=#@#Images\button_close.png
-LeftMouseUpAction=[!HideMeterGroup StreamDay][Play "#@#\Audio\close.wav"][!ShowMeterGroup Activity][!ShowMeter Activities][!Redraw]
+LeftMouseUpAction=[!HideMeterGroup StreamDay][Play "#@#\Audio\close.wav"][!ShowMeter Activities][!Redraw]
 Hidden=1
 Group=StreamDay
 
 [StreamDayMessage]
 Meter=String
-X=(250 + #ActivityWindowOffset#)
-Y=(100 + #ActivityWindowOffset#)
+X=(250 + #StreamDayWindowOffset#)
+Y=(100 + #StreamDayWindowOffset#)
 Text="Stream during daytime?"
 clipString = 2
 W=365
@@ -339,8 +339,8 @@ Group=StreamDay
 
 [StreamYesButton]
 Meter=Image
-X=(32 + #ActivityWindowOffset#)
-Y=(165 + #ActivityWindowOffset#)
+X=(32 + #StreamDayWindowOffset#)
+Y=(165 + #StreamDayWindowOffset#)
 ImageName=#@#\Images\Welcome\button.png
 LeftMouseUpAction=[Play "#@#Audio\execute.wav"][!HideMeterGroup Activity][!WriteKeyValue Variables @Include2 "Scene\Transition.inc"][!Refresh]
 Hidden=1
@@ -360,10 +360,10 @@ Group=StreamDay
 
 [StreamNoButton]
 Meter=Image
-X=(272 + #ActivityWindowOffset#)
-Y=(165 + #ActivityWindowOffset#)
+X=(272 + #StreamDayWindowOffset#)
+Y=(165 + #StreamDayWindowOffset#)
 ImageName=#@#\Images\Welcome\button.png
-LeftMouseUpAction=[!HideMeterGroup StreamDay][!ShowMeterGroup Activity][Play "#@#\Audio\close.wav"]
+LeftMouseUpAction=[!HideMeterGroup StreamDay][Play "#@#\Audio\close.wav"]
 Hidden=1
 Group=StreamDay
 

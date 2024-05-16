@@ -25,7 +25,7 @@ AntiAlias=1
 
 [WindowTitles]
 Meter=STRING
-Text="Stream"
+Text="はいしん"
 FontFace=DinkieBitmap 7px
 X=34
 Y=14

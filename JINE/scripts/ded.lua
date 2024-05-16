@@ -1,16 +1,16 @@
 function Initialize()
     -- add a new ame JINE chat here.
         a = {
-                "officer we got a dead nerd here",
-                "dont die...",
-                "I CAST PHOENIX DOWN",
-                "oh no... theres no pulse.......",
-                "(pokes your limp body with my foot)",
-                "we'll be together in our next life too right? :(",
-                "nerds die so easily",
-                "NO DONT DIE ON ME",
-                "if you die i die",
-                 "youd better not die before i do!!!",
+                "死亡確認",
+                "死なないで",
+                "いま蘇らせるから待ってて",
+                "し、死んでる・・・・・・",
+                "死ーん",
+                "来世でも恋人でいようね",
+                "オタクはすぐ死ぬ",
+                "死ぬなーーーーっ！！！",
+                "ピが死んだらあめちゃんも死ぬから",
+                "あめちゃんが死ぬまでは生きてね",
             }
 end
 

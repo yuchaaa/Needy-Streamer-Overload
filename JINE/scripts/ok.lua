@@ -1,16 +1,16 @@
 function Initialize()
     -- add a new ame JINE chat here.
         a = {
-                "ok",
-                "k",
-                "as long as you understand",
-                "potassium",
-                "youre just all talk huh.",
-                "wow talk about no effort",
-                "are you suuure?",
-                "(*'-')b",
-                "do you even know what youre OKing at",
-                 "thanks for the zero effort",
+                "OKか",
+                "おk",
+                "わかったならよし",
+                "牧場",
+                "返事だけはいいな",
+                "気持ちがこもってない",
+                "ホントにわかってるかな～？",
+                "OK!!(*'-')b",
+                "なにもわかってなさそう",
+                 "1ミリも気持ちを感じられない",
             }
 end
 

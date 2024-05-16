@@ -1,895 +1,895 @@
 function Initialize()
-    a = {}
-
-    --[[
-    Parts of the tweet:
-
-    a[id] = {
-             [Tweet],
-             [RetweetConstant],
-             [LikeConstant],
-             [Tweet User],
-             [Original Image Link]
-            }
-            
-    --]]
-
-    a[0] = {
-            "",
-            300,
-            300,
-            "@x_angelkawaii_x",
-            "https://www.instagram.com/p/CcW2yRKJn-q/"
-           }
-
-    a[1] = {
-            "a streamer ive never liked but never bothered to talk about is getting flamed to death rn LMAAOO i KNEW they were bad news. i am always correct and right about everything",
-            0,
-            0,
-            "@raincandy_U"
-           }
-
-    a[2] = {
-            "someone else replied to one of my undercover posts like -i bet kangel wrote this- ??? how did they know... i know i should just like not respond but did they think it was me because i have such a distinct and cute energy?",
-            0,
-            0,
-            "@raincandy_U"
-           }
-
-    a[3] = {
-            "wrath of the raging demon is SO good wish i could use just this one combo haha DIE ONE THOUSAND DEATHS!!!!",
-            0,
-            0,
-            "@raincandy_U"
-           }
-
-    a[4] = {
-            "i feel so good rn i feel like all my stress just disappeared this is the only time when im truly happy... everything about kangel is a lie",
-            0,
-            0,
-            "@raincandy_U"
-           }
-
-    a[5] = {
-            "i think that no matter where you go on the internet, youre always bound to end up fighting one way or another. those who do not fight will not survive!",
-            0,
-            0,
-            "@raincandy_U"
-           }
+        a = {}
     
-    a[6] = {
-            "i love u p-chan",
-            0,
-            0,
-            "@raincandy_U"
-           }
+        --[[
+        Parts of the tweet:
     
-    a[7] = {
-            "Went to see my parents for the first time in a long while! I had a lot of fun hanging out in all the spots I used to visit as a kid. Speaking of, I also found a lot of my old childhood photos! Do you guys want to see?",
-            80,
-            80,
-            "@x_angelkawaii_x"
-           }
+        a[id] = {
+                 [Tweet],
+                 [RetweetConstant],
+                 [LikeConstant],
+                 [Tweet User],
+                 [Original Image Link]
+                }
+                
+        --]]
     
-    a[8] = {
-            "p-chan met the parents so we're practically married now!!!",
-            0,
-            0,
-            "@raincandy_U"
-           }
-
-    a[9] = {
-            "every time i spiral p-chan always knows exactly what to say... im going through a lot but as long as im with p-chan i feel like i can push through. internet angel lets goooo!!!",
-            0,
-            0,
-            "@raincandy_U"
-           }
+        a[0] = {
+                "",
+                300,
+                300,
+                "@x_angelkawaii_x",
+                "https://www.instagram.com/p/CcW2yRKJn-q/"
+               }
     
-    a[10] = {
-             "i usually dont buy these kinds of things but i thought p-chan might like it so i gave in....... how do i look?? bet if i posted this on main id get flamed to death lol",
-             0,
-             0,
-             "@raincandy_U"
-            }
+        a[1] = {
+                "超てんちゃんが叩くまでもなく嫌いな配信者がめっちゃ炎上している！！　やっぱコイツは悪いやつだなって睨んでたんだよ！　っぱ、大正義は超てんちゃんだけよ",
+                0,
+                0,
+                "@raincandy_U"
+               }
     
-    a[11] = {
-             "i think my fav is the piccolo cosplay! SPECIAL BEAM CANNON!!!! (me blasting all my haters)",
-             0,
-             0,
-             "@raincandy_U"
-            }
+        a[2] = {
+                "またわたしが書いた自演が「これ書いたの超てんちゃんじゃない？」ってバレてる～～～！？！？　まぁ反応しなければいいだけだけど……。わたしがかわいすぎて文章だけでもオーラがでてるのかな？",
+                0,
+                0,
+                "@raincandy_U"
+               }
     
-    a[12] = {
-             "the fans who like pure cinnamon roll kangel would probably flip out of they saw my priv lmao ignorance truly is bliss",
-             0,
-             0,
-             "@raincandy_U"
-            }
+        a[3] = {
+                "一瞬千撃！　瞬○殺コマンド大好き！！！　これしか押したくないくらい好き！",
+                0,
+                0,
+                "@raincandy_U"
+               }
     
-    a[13] = {
-             "streaming day in and day out really makes me appreciate whatever time i can get to just laze around with p-chan",
-             0,
-             0,
-             "@raincandy_U"
-            }
-
-    a[14] = {
-             "But -normal- is so boring.",
-             10,
-             60,
-             "@x_angelkawaii_x"
-            }
+        a[4] = {
+                "むずかしいことぜ～んぶ忘れちゃう　この瞬間だけがしあわせ　配信しているときのわたしは全部うそなの",
+                0,
+                0,
+                "@raincandy_U"
+               }
     
-    a[15] = {
-             "You've all been with me through thick and thin so I won't bore you with a wordy post, but thank you all so much for loving me! <3 I love every one of you too! I think I can proudly say that I'm the luckiest angel in the universe right now!",
-             75,
-             55,
-             "@x_angelkawaii_x"
-            }
+        a[5] = {
+                "どこまでいってもインターネットの本質は闘争なんだよな　戦わなければ生き残れない！",
+                0,
+                0,
+                "@raincandy_U"
+               }
+        
+        a[6] = {
+                "ピ　あいしてる",
+                0,
+                0,
+                "@raincandy_U"
+               }
+        
+        a[7] = {
+                "きょうは久々に実家に帰ってきた！！！　久々に地元で遊べてとても楽しかったよ　あと子供の頃の写真でてきた懐かし～　オタクたちにも見せてあげるねっ",
+                80,
+                80,
+                "@x_angelkawaii_x"
+               }
+        
+        a[8] = {
+                "いっしょに実家に行ったんだから実質結婚！！！！",
+                0,
+                0,
+                "@raincandy_U"
+               }
     
-    a[16] = {
-             "I've got a new kind of stream coming up for you guys! I've never done this kind of thing before, so I'm really nervous!",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[9] = {
+                "つらいこといっぱいあって、時々急にやんじゃうけど、そんな時でも的確に言ってほしいこと言ってくれるピがいるなら頑張っていこうと思った。インターネットエンジェル、いきます！！！！",
+                0,
+                0,
+                "@raincandy_U"
+               }
+        
+        a[10] = {
+                 "こういうの普段買わないけどピが喜ぶかも知れないって思ったら買わざるを得なかった。似合ってるかな？　表で貼ったら大炎上間違いなし",
+                 0,
+                 0,
+                 "@raincandy_U"
+                }
+        
+        a[11] = {
+                 "この〇ッコロさんの魔道着が一番しっくりくる　これならアンチを魔〇光殺砲で一撃できそうやし)",
+                 0,
+                 0,
+                 "@raincandy_U"
+                }
+        
+        a[12] = {
+                 "もし純粋な超てんちゃんのオタクが、あめちゃんのアカウントの中身を見ちゃったら発狂するだろうな　オタク、幸せなままで居てくれよ",
+                 0,
+                 0,
+                 "@raincandy_U"
+                }
+        
+        a[13] = {
+                 "配信ばっかりの生活だと、たまにピと夜までのんびりしている日がめっっっっちゃ幸せに感じるわ。なんてことない日々がかけがいないの～",
+                 0,
+                 0,
+                 "@raincandy_U"
+                }
     
-    a[17] = {
-             "Went clothes shopping at Shibuya today! Here's what I bought~ How do I look???",
-             90,
-             80,
-             "@x_angelkawaii_x"
-            }
+        a[14] = {
+                 "ふつうってやっぱつまんない",
+                 10,
+                 60,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[15] = {
+                 "ここまできたら、長ったらしい言葉はいらないね！超てんちゃんを愛してくれてありがとう！超てんちゃんもみんなを愛しているよ！わたしはいま、間違いなく、世界で一番幸福であると宣言します！！！",
+                 75,
+                 55,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[16] = {
+                 "超てんちゃんの新しい企画ができました～いつもの配信と違って緊張しました",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[17] = {
+                 "渋谷回っていろんなお洋服見て回っちゃった！　今日買った服はね～～～～～　コレ！　どう？　似合ってるかな？？？",
+                 90,
+                 80,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[18] = {
+                 "いつまでロリータ着るのって言われても一生着ると思う　永遠に少女だから",
+                 60,
+                 60,
+                 "@x_angelkawaii_x"
+                }
     
-    a[18] = {
-             "Aren't you too old for lolita? No. <3 I'll be buried in lolita.",
-             60,
-             60,
-             "@x_angelkawaii_x"
-            }
-
-    a[19] = {
-              "Got the costume I had on my wishlist, thank you to the one who bought it! I put it on straight away~ If you buy me a costume I'll take a selfie in it sooo *wink* *wink*",
-              20,
-              20,
-              "@x_angelkawaii_x"
-            }
+        a[19] = {
+                  "干し芋のリストから衣装が届きました～　早速着てみたよ～　服買ってくれたらそれ着て自撮りするね。ありがと！",
+                  20,
+                  20,
+                  "@x_angelkawaii_x"
+                }
+        
+        a[20] = {
+                  "いまおそとで配信中でーす",
+                  100,
+                  100,
+                  "@x_angelkawaii_x"
+                }
+        
+        a[21] = {
+                 "ちょっとピと休憩！　超てんちゃんのファンたちがいっぱい集まってきてくれてうれしいな。みんなわたしのこと大好きなんだね。うれしいな……",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[22] = {
+                 "いちばんかわいいおうまさんに乗ったよ。ピといっしょだよ！",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[23] = {
+                 "観覧車に乗ってみたよ　ぐらぐら揺れちゃってジェットコースターよりこわいかも！！！",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[24] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[25] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[26] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[27] = {
+                 "ピース　ピース　みんないつまでも平和でいこうね　みんなアイシテルヨ",
+                 50,
+                 50,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[28] = {
+                 "みんなは今ハマっているものってあるかな？　超てんちゃんもあるけどね～～～～　ヒミツ！",
+                 60,
+                 35,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[29] = {
+                 "きょうは配信きてくれてありがと～　慣れない配信でちょっとグダっちゃってごめんね；；　みんな愛してるヨ～",
+                 20,
+                 5,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[30] = {
+                 "あはっ　激しく動いてとっても疲れちゃった！　いまからゆっくりお風呂に入るね。覗いちゃダメだよっ！",
+                 65,
+                 40,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[31] = {
+                 "超てんちゃんみんなでゲームするの本当にだいすき！いつも付き合ってくれてありがとね。また今度も一緒にもりあがろうね",
+                 35,
+                 20,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[32] = {
+                 "久々に自撮りしたよ～～　いっぱいいいねしてね",
+                 95,
+                 40,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[33] = {
+                 "",
+                 150,
+                 150,
+                 "@x_angelkawaii_x"
+                }
     
-    a[20] = {
-              "Streaming outside RN",
-              100,
-              100,
-              "@x_angelkawaii_x"
-            }
+        a[34] = {
+                 "マニキュア塗ったよ～～～。超てんちゃんが好きな色！！！！　めちゃくちゃ綺麗でしょ？　こんどメイク動画あげるね！",
+                 80,
+                 80,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[35] = {
+                 "マニキュア塗ったよ～～～。超てんちゃんが好きな色！！！！　めちゃくちゃ綺麗でしょ？　こんどメイク動画あげるね！", 
+                 80,
+                 80,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[36] = {
+                 "マニキュア塗ったよ～～～。超てんちゃんが好きな色！！！！　めちゃくちゃ綺麗でしょ？　こんどメイク動画あげるね！", 
+                 80,
+                 80,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[37] = {
+                 "マニキュア塗ったよ～～～。超てんちゃんが好きな色！！！！　めちゃくちゃ綺麗でしょ？　こんどメイク動画あげるね！", 
+                 80,
+                 80,
+                 "@x_angelkawaii_x"
+                }
+        a[38] = {
+                 "",
+                 150,
+                 150,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[39] = {
+                 "これから二人で幸せになります.",
+                 100,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[40] = {
+                 "きょうは中野でかわいいぬいぐるみさん買ってきたよ！みてみて、わたしの顔面のつぎに強い顔面",
+                 80,
+                 80,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[41] = {
+                 "みんな狂った超てんちゃんを見て笑いものにしてるんだ　所詮わたしはインターネットエンジェルじゃなくてピエロなんだよ　なんでなんでなんでなんで　超てんちゃんどこでまちがえた？？？",
+                 55,
+                 25,
+                 "@x_angelkawaii_x"
+                }
+         
+        a[42] = {
+                 "世界が平和でありますように……",
+                 80,
+                 60,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[43] = {
+                 "オタクくん、また明日……",
+                 30,
+                 15,
+                 "@x_angelkawaii_x"
+                }
     
-    a[21] = {
-             "Taking a short break with P-chan! I also want to say how happy I am that all of you came to see me. You guys really love me a lot, huh? I'm so happy... :)",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[44] = {
+                 "なんかね、超てんちゃんに対してヒドいこと言う人が最近多くて、ちょっと疲れてきちゃった　しばらく配信休んじゃうかも。。。ごめんね、もっとメンタルつよつよにしてからすぐ戻ってくるからね",
+                 80,
+                 40,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[45] = {
+                 "あははっ　とりあえず今日はこれくらいにしとこうかな……\n本当になんでもないからね！　超てんちゃんのベッドの下に殺人犯がいたとかそういうのじゃないから！　じゃあ、また明日も遊ぼうね！",
+                 15,
+                 5,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[46] = {
+                 "はじめまして！\nあなたのインターネット・エンジェル\n「超絶最かわてんしちゃん」だよ！\n初配信どうだったかな？　これからいっぱいみんなを\n笑顔にしていくから、よろしくね！\n†昇天†",
+                 865,
+                 120,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[47] = {
+                 "全部理解しました　全部です　インターネットエンジェルが全てを解決してあげます",
+                 95,
+                 100,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[48] = {
+                 "超てんちゃんすっごく元気！！！\nいま何の不安もまったくない！！！配信めちゃくちゃやりまくりたい！みんなといっぱい話したい！\nゲリラになっちゃうけどやっちゃうね！？",
+                 60,
+                 20,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[49] = {
+                 "おくすりのんだぁ　なんか　きもちおうて　ふわふあすゆ　きもちい",
+                 90,
+                 10,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[50] = {
+                 "男なんて全員ケダモノです　不潔です\n絶対に許すな　見つけ次第ギロチンにかけましょう！\n女性が心から安心できる、住みやすい世界のために！",
+                 4,
+                 49,
+                 "@x_angelkawaii_x"
+                }
+        
+        a[51] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://www.instagram.com/p/CfWUZFpvQ3b/"
+                }
+        
+        a[52] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://www.instagram.com/p/Cfl4e_WPmpI/"
+                }
+        
+        a[53] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://www.instagram.com/p/Cch_0t6vwB_/"
+                }
+        
+        a[54] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://www.instagram.com/p/Cf6M7MpvmKy/"
+                }
+        
+        a[55] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1513834098279981062"
+                }
+                            
+        a[56] = {
+                 "She's a Killer Queen",
+                 80,
+                 150,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1605540651742945288"
+                }
+                            
+        a[57] = {
+                 "There Is No Angel",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1600052708224151552"
+                }
+                            
+        a[58] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1595415052106227712"
+                }
+                            
+        a[59] = {
+                 "なにもしてくれなかったくせに",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1592542958154575872"
+                }
+                            
+        a[60] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1590004070953398278"
+                }
+                            
+        a[61] = {
+                 "あのね、あたしたち好きな人に もう一度会うため歩いただけよ",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1587026923724890112"
+                }
+                            
+        a[62] = {
+                 "やっと会えたね",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1585285170935889920"
+                }
+                            
+        a[63] = {
+                 "",
+                 75,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1582317366448640000"
+                }
     
-    a[22] = {
-             "I'm riding on the cutest little horsey RN with my P-chan!",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[64] = {
+                 "天使なんかに恋しちゃダメだよ",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1574727526194479105"
+                }
+                            
+        a[65] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1567098453876158464"
+                }
+                            
+        a[66] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1564933695588675584"
+                }
+                            
+        a[67] = {
+                 "超てんちゃん、初めて公式で案件をもらってきたよ！！！昨日発売したｿｳﾙﾊｯｶｰｽﾞ2の紹介動画を作ったから、今夜公開するね。これは天使ともだちのメタトロンさんとの記念！",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1563003296742535170"
+                }
+                            
+        a[68] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1562007946565124097"
+                }
     
-    a[23] = {
-             "Went on a Ferris wheel and it was super shaky! I think it might even be more scary than a roller coaster!!!",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+                            
+        a[69] = {
+                 "拙者もコミケを楽しみましたぞ（本当は家から出てない）（暑いから）",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1559456223904546816"
+                }
+                            
+        a[70] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1556928680672493568"
+                }
+                            
+        a[71] = {
+                 "おいで",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1537035035152650240"
+                }
+                            
+        a[72] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1534140547669323776"
+                }
+                            
+        a[73] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1531593476064034817"
+                }
+                            
+        a[74] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1524715065626480640"
+                }
+                            
+        a[75] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1521113342265655296"
+                }
+                            
+        a[76] = {
+                 "</3",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1518898483281166337"
+                }
+                            
+        a[77] = {
+                 "†むかし買ったゴスロリ†",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1511563805024997377"
+                }
+                            
+        a[78] = {
+                 "告知告知～！！！「超てんちゃんのRAINBOW Drink」が発売決定だよ　これからは、爽やかな七色ドリンクでつらい毎日を乗り切ろう！！",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1509546284684046340"
+                }		
+                            
+        a[79] = {
+                 "つめ見て",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1508733570097225728"
+                }	
+                            
+        a[80] = {
+                 "Internet",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1505804103653687298"
+                }	
+                            
+        a[81] = {
+                 "さっき撮った",
+                 90,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1504351552437624833"
+                }	
+                            
+        a[82] = {
+                 "X",
+                 0,
+                 0,
+                 "@raincandy_U",
+                 "https://twitter.com/nyalra/status/1602622845598986242"
+                }		
+                            
+        a[83] = {
+                 "",
+                 0,
+                 0,
+                 "@raincandy_U",
+                 "https://twitter.com/nyalra/status/1597560052633997315"
+                }
+                            
+        a[84] = {
+                 "雨",
+                 0,
+                 0,
+                 "@raincandy_U",
+                 "https://twitter.com/nyalra/status/1577256786960461824"
+                }	
+                            
+        a[85] = {
+                 "ピエタ",
+                 0,
+                 0,
+                 "@raincandy_U",
+                 "https://twitter.com/nyalra/status/1540284897910468609"
+                }	
+                            
+        a[86] = {
+                 "DOUBLE BIND",
+                 0,
+                 0,
+                 "@raincandy_U",
+                 "https://twitter.com/nyalra/status/1526552715198926850"
+                }	
     
-    a[24] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[87] = {
+                 "",
+                 80,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1580057623164227584"
+                }	
     
-    a[25] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[88] = {
+                 "",
+                 80,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1572160729998069761"
+                }
     
-    a[26] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[89] = {
+                 "",
+                 80,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1686326655089065984"
+                }
     
-    a[27] = {
-             "I love it when everyone gets along online. Love y'all!",
-             50,
-             50,
-             "@x_angelkawaii_x"
-            }
+        a[90] = {
+                 "",
+                 0,
+                 0,
+                 "@raincandy_U",
+                 "https://twitter.com/nyalra/status/1665951206894870530"
+                }
+                
+        a[91] = {
+                 "",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1691092373336625152"
+                }
     
-    a[28] = {
-             "What's something you guys are really into these days? Mine is... a secret! shhhhh...",
-             60,
-             35,
-             "@x_angelkawaii_x"
-            }
+        a[92] = {
+                 "また、夏がきたね",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1681155709235523584"
+                }
     
-    a[29] = {
-             "Thanks to everyone who came along to today's stream! Sorry I was a bit all over the place, I'm still new to this! Love you all! <3",
-             20,
-             5,
-             "@x_angelkawaii_x"
-            }
+        a[93] = {
+                 "",
+                 150,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1678773285180567552"
+                }
     
-    a[30] = {
-             "Whew! I'm so tired from all that riding I'm going to go and take a nice, long bath... No peeking!",
-             65,
-             40,
-             "@x_angelkawaii_x"
-            }
+        a[94] = {
+                 "今日はわたしのたんじょうび\n\n生誕日なんかに何の意味もないと思っているし、生まれた日を記録することも、そもそも日付の概念も人が勝手に作った区切りでしかないけど、でもそんなものを祝う風習があるからこそ人間の命に価値が生まれたんだろうね。天使のわたしにはどうでもいいけど！\n\n†昇天†",
+                 200,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1676970170726895619"
+                }
     
-    a[31] = {
-             "I love playing games with everyone... thanks for always coming along to my streams. Let's keep this party going forever and ever!",
-             35,
-             20,
-             "@x_angelkawaii_x"
-            }
+        a[95] = {
+                 "ALICE",
+                 100,
+                 100,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1673692106857279489"
+                }
     
-    a[32] = {
-             "Haven't posted a selfie in a while. Spare a like? <3 <3",
-             95,
-             40,
-             "@x_angelkawaii_x"
-            }
+        a[96] = {
+                 "",
+                 80,
+                 80,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1671129072125247491"
+                }  
     
-    a[33] = {
-             "",
-             150,
-             150,
-             "@x_angelkawaii_x"
-            }
-
-    a[34] = {
-             "I did my nails! Aren't they so pretty? I love this color!!! I'll be uploading a makeup video sometime in the future!",
-             80,
-             80,
-             "@x_angelkawaii_x"
-            }
+        a[97] = {
+                 ":)",
+                 120,
+                 80,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1668664166708838402"
+                }
     
-    a[35] = {
-             "I did my nails! Aren't they so pretty? I love this color!!! I'll be uploading a makeup video sometime in the future!", 
-             80,
-             80,
-             "@x_angelkawaii_x"
-            }
+        a[98] = {
+                 "インターネット・エンジェルは、バーチャルネットアイドルを応援しています",
+                 150,
+                 120,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1663511416845012992"
+                }
     
-    a[36] = {
-             "I did my nails! Aren't they so pretty? I love this color!!! I'll be uploading a makeup video sometime in the future!",
-             80,
-             80,
-             "@x_angelkawaii_x"
-            }
+        a[99] = {
+                 "今夜はTOKYOへおでかけ",
+                 150,
+                 120,
+                 "@x_angelkawaii_x",
+                 "https://twitter.com/x_angelkawaii_x/status/1660651132253814784"
+                }
     
-    a[37] = {
-             "I did my nails! Aren't they so pretty? I love this color!!! I'll be uploading a makeup video sometime in the future!", 
-             80,
-             80,
-             "@x_angelkawaii_x"
-            }
-    a[38] = {
-             "",
-             150,
-             150,
-             "@x_angelkawaii_x"
-            }
+        a[100] = {
+                  "等身大のわたしをぜったい見にきてね",
+                  150,
+                  120,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1650885205035745285"
+                 }
     
-    a[39] = {
-             "Now we'll be able to find happiness.",
-             100,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[101] = {
+                  "",
+                  150,
+                  120,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1648646892224655360"
+                 }             
     
-    a[40] = {
-             "Bought a lot of cute stuffed toys at Nakano today! Who's cuter, me or my new friend?",
-             80,
-             80,
-             "@x_angelkawaii_x"
-            }
+        a[102] = {
+                  "こんなインターネットぬけだして\nほんとうのさいわいを見つけにいく",
+                  120,
+                  100,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1640694078114234369"
+                 }  
+                 
+        a[103] = {
+                  "",
+                  150,
+                  80,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1638489013735821319"
+                 }  
     
-    a[41] = {
-             "I bet you all watch me just to make fun of me because I'm just a clown and not an internet angel at all why why why why what did I do wrong???",
-             55,
-             25,
-             "@x_angelkawaii_x"
-            }
-     
-    a[42] = {
-             "Praying for world peace",
-             80,
-             60,
-             "@x_angelkawaii_x"
-            }
+        a[104] = {
+                  "こ、これはオタクくんが誰からも貰えなくて可哀想だからあげるんだからねっ\nぜんぜん好きとかじゃないから……",
+                  180,
+                  100,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1625448650121048064"
+                 }
     
-    a[43] = {
-             "See you again tomorrow, my little nerds...",
-             30,
-             15,
-             "@x_angelkawaii_x"
-            }
-
-    a[44] = {
-             "I've been getting a lot of hate recently and TBH it's really draining... :( I might need to take a bit of a break from streaming, sorry guys... When I'm back, I'll be better and stronger!",
-             80,
-             40,
-             "@x_angelkawaii_x"
-            }
+        a[105] = {
+                  "たすけてよ",
+                  200,
+                  180,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1620806636641353731"
+                 }
     
-    a[45] = {
-             "Ahaha, I think that's enough for today... I promise it was just me in my room though! No serial killers under my bed or anything! Anyway, I'll come back tomorrow and we can all hang out then!",
-             15,
-             5,
-             "@x_angelkawaii_x"
-            }
+        a[106] = {
+                  "わたしが輝いているところ全部観てて",
+                  200,
+                  180,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1618211755112660992"
+                 }
     
-    a[46] = {
-             "Hey everyone! Wow, this is my first time meeting all of you. I'm OMGangelkawaii, your internet angel! What did you guys think of my first stream? I hope you liked it, because I'm going to keep trying my hardest to bring lots and lots of joy! So please be nice to me! BLESS",
-             865,
-             120,
-             "@x_angelkawaii_x"
-            }
+        a[107] = {
+                  "<3",
+                  180,
+                  180,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/16153467332231454722"
+                 }
     
-    a[47] = {
-             "I see and know everything. Your favorite internet angel will be the solution to all your problems...",
-             95,
-             100,
-             "@x_angelkawaii_x"
-            }
+        a[108] = {
+                  "幸福になる道ならば、その道を歩むこと自体が幸福でなくてはなりません。",
+                  200,
+                  180,
+                  "@x_angelkawaii_x",
+                  "https://twitter.com/x_angelkawaii_x/status/1610617268194639878"
+                 }
     
-    a[48] = {
-             "I'm in a really good mood today!!! Head empty no worries!!!! I'm gonna stream heaps for you guys!!!!! I wanna have a chat with all of you!!!!!!!!! Anyone up for a spontaneous stream??????!?!?!?!?! LET'S GO!!!!!!!!!!!!!!!",
-             60,
-             20,
-             "@x_angelkawaii_x"
-            }
+        a[109] = {
+                  "",
+                  0,
+                  0,
+                  "@raincandy_U",
+                  "https://twitter.com/nyalra/status/1688513704940511232"
+                 }
     
-    a[49] = {
-             "took soe pills im :) hehehe",
-             90,
-             10,
-             "@x_angelkawaii_x"
-            }
     
-    a[50] = {
-             "All men are fucking disgusting animals. They should all be taken out back and shot. They can't get away with this! I'm going to make this world a better place where all women can live in peace!",
-             4,
-             49,
-             "@x_angelkawaii_x"
-            }
+                 
+        end
     
-    a[51] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://www.instagram.com/p/CfWUZFpvQ3b/"
-            }
+    function Update()
+        -- Get SavedImage number
+        tweet = tonumber(SKIN:GetVariable('SavedImage', '0'))
+        
+        if (tweet == (85) + (.2))
+        then
+            return "The cake is a lie."
+        end
     
-    a[52] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://www.instagram.com/p/Cfl4e_WPmpI/"
-            }
+        -- Get Total Followers
+        followers = SKIN:GetMeasure('Followers')
+        followerValue = tonumber(followers:GetValue())/150
+        
+        -- Generate Random Offset
+        math.randomseed(os.time())
+        math.random(); math.random(); math.random()
+        retweetOffset = 1 + (math.random(10)/100)
+        likeOffset = 1 + (math.random(10)/100)
     
-    a[53] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://www.instagram.com/p/Cch_0t6vwB_/"
-            }
+        -- Calculate Retweets and Likes
+        calculateRetweets = a[tweet][2]*retweetOffset*followerValue
+        calculateLikes = a[tweet][3]*likeOffset*followerValue
+        
+        -- If the tweet is from Ame
+        if (a[tweet][4] == "@raincandy_U")
+        then
+            SKIN:Bang('!SetOption', 'UserIcon', 'ImageName', "#@#Images\\Social Media\\icon_ame.png")
+        end
     
-    a[54] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://www.instagram.com/p/Cf6M7MpvmKy/"
-            }
+        -- If the tweet is from Twitter
+        if (a[tweet][5] ~= nil)
+        then
+            SKIN:Bang('!SetOption', 'ViewTweet', 'Text', "View Image")
+            SKIN:Bang('!SetOption', 'ViewTweet', 'LeftMouseUpAction', a[tweet][5])
+        end
     
-    a[55] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1513834098279981062"
-            }
-			
-    a[56] = {
-             "She's a Killer Queen",
-             80,
-             150,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1605540651742945288"
-            }
-			
-    a[57] = {
-             "There Is No Angel",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1600052708224151552"
-            }
-			
-    a[58] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1595415052106227712"
-            }
-			
-    a[59] = {
-             "You didn't do anything for me.",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1592542958154575872"
-            }
-			
-    a[60] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1590004070953398278"
-            }
-			
-    a[61] = {
-             "You know, we were just walking to see the ones we love again.",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1587026923724890112"
-            }
-			
-    a[62] = {
-             "Nice to finally meet you!",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1585285170935889920"
-            }
-			
-    a[63] = {
-             "",
-             75,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1582317366448640000"
-            }
-
-    a[64] = {
-             "Don't fall in love with an angel.",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1574727526194479105"
-            }
-			
-    a[65] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1567098453876158464"
-            }
-			
-    a[66] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1564933695588675584"
-            }
-			
-    a[67] = {
-             "Hey cuties, I got my first official deal!\n\nI made a video introducing Soul Hackers 2, which was released yesterday, and I'll release it tonight at 8pm.\nThis is a picture with my angel friend Metatron!",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1563003296742535170"
-            }
-			
-    a[68] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1562007946565124097"
-            }
-
-			
-    a[69] = {
-             "I also enjoyed Comiket (I didn't really leave my house) (Because it was too hot)",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1559456223904546816"
-            }
-			
-    a[70] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1556928680672493568"
-            }
-			
-    a[71] = {
-             "Come.",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1537035035152650240"
-            }
-			
-    a[72] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1534140547669323776"
-            }
-			
-    a[73] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1531593476064034817"
-            }
-			
-    a[74] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1524715065626480640"
-            }
-			
-    a[75] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1521113342265655296"
-            }
-			
-    a[76] = {
-             "</3",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1518898483281166337"
-            }
-			
-    a[77] = {
-             "Gothic Lolita that I bought a long time ago",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1511563805024997377"
-            }
-			
-    a[78] = {
-             "Announcement Announcement!!!\n ''KANGEL's RAINBOW Drink'' will be released!\n\nFrom now on, let's get through hard days with refreshing seven-colored drinks!!",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1509546284684046340"
-            }		
-			
-    a[79] = {
-             "Look look!",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1508733570097225728"
-            }	
-			
-    a[80] = {
-             "Internet",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1505804103653687298"
-            }	
-			
-    a[81] = {
-             "Just took this",
-             90,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1504351552437624833"
-            }	
-			
-    a[82] = {
-             "X",
-             0,
-             0,
-             "@raincandy_U",
-             "https://twitter.com/nyalra/status/1602622845598986242"
-            }		
-			
-    a[83] = {
-             "",
-             0,
-             0,
-             "@raincandy_U",
-             "https://twitter.com/nyalra/status/1597560052633997315"
-            }
-			
-    a[84] = {
-             "Rain",
-             0,
-             0,
-             "@raincandy_U",
-             "https://twitter.com/nyalra/status/1577256786960461824"
-            }	
-			
-    a[85] = {
-             "Pieta",
-             0,
-             0,
-             "@raincandy_U",
-             "https://twitter.com/nyalra/status/1540284897910468609"
-            }	
-			
-    a[86] = {
-             "DOUBLE BIND",
-             0,
-             0,
-             "@raincandy_U",
-             "https://twitter.com/nyalra/status/1526552715198926850"
-            }	
-
-    a[87] = {
-             "",
-             80,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1580057623164227584"
-            }	
-
-    a[88] = {
-             "",
-             80,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1572160729998069761"
-            }
-
-    a[89] = {
-             "",
-             80,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1686326655089065984"
-            }
-
-    a[90] = {
-             "",
-             0,
-             0,
-             "@raincandy_U",
-             "https://twitter.com/nyalra/status/1665951206894870530"
-            }
-            
-    a[91] = {
-             "",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1691092373336625152"
-            }
-
-    a[92] = {
-             "Summer is here again",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1691092373336625152"
-            }
-
-    a[93] = {
-             "",
-             150,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1678773285180567552"
-            }
-
-    a[94] = {
-             "Today is my birthday! \n\nI don't think birthdays have any meaning. Recordings of birthdays and the concept of dates are nothing more than a division made by people. But, there are cultures to celebrate such things. That's what makes human life worth it. It doesn't matter to me as an angel!\n\nBLESS",
-             200,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1676970170726895619"
-            }
-
-    a[95] = {
-             "ALICE",
-             100,
-             100,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1673692106857279489"
-            }
-
-    a[96] = {
-             "",
-             80,
-             80,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1671129072125247491"
-            }  
-
-    a[97] = {
-             ":)",
-             120,
-             80,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1668664166708838402"
-            }
-
-    a[98] = {
-             "Internet Angel supports Virtual Net Idols",
-             150,
-             120,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1663511416845012992"
-            }
-
-    a[99] = {
-             "Going out to Tokyo",
-             150,
-             120,
-             "@x_angelkawaii_x",
-             "https://twitter.com/x_angelkawaii_x/status/1660651132253814784"
-            }
-
-    a[100] = {
-              "Come and see this real life size of me!",
-              150,
-              120,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1650885205035745285"
-             }
-
-    a[101] = {
-              "",
-              150,
-              120,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1648646892224655360"
-             }             
-
-    a[102] = {
-              "Leave the internet and seek true happiness.",
-              120,
-              100,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1640694078114234369"
-             }  
-             
-    a[103] = {
-              "",
-              150,
-              80,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1638489013735821319"
-             }  
-
-    a[104] = {
-              "I'm giving this chocolate to Otaku-kun. I just feel pityful that he doesn't receive chocolates from anyone and I don't like him feeling that way.",
-              180,
-              100,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1625448650121048064"
-             }
-
-    a[105] = {
-              "help me.",
-              200,
-              180,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1620806636641353731"
-             }
-
-    a[106] = {
-              "Look at me shine.",
-              200,
-              180,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1618211755112660992"
-             }
-
-    a[107] = {
-              "<3",
-              180,
-              180,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/16153467332231454722"
-             }
-
-    a[108] = {
-              "If this is the path to happiness, then walking this path must be indeed happiness.",
-              200,
-              180,
-              "@x_angelkawaii_x",
-              "https://twitter.com/x_angelkawaii_x/status/1610617268194639878"
-             }
-
-    a[109] = {
-              "",
-              0,
-              0,
-              "@raincandy_U",
-              "https://twitter.com/nyalra/status/1688513704940511232"
-             }
-
-
-             
-    end
-
-function Update()
-    -- Get SavedImage number
-    tweet = tonumber(SKIN:GetVariable('SavedImage', '0'))
+        -- Set everything 
+        SKIN:Bang('!SetOption', 'RetweetCalculation', 'Formula', calculateRetweets)
+        SKIN:Bang('!SetOption', 'LikeCalculation', 'Formula', calculateLikes)
+        SKIN:Bang('!SetOption', 'UserName', 'Text', a[tweet][4])
     
-    if (tweet == (85) + (.2))
-    then
-        return "The cake is a lie."
-    end
-
-    -- Get Total Followers
-    followers = SKIN:GetMeasure('Followers')
-    followerValue = tonumber(followers:GetValue())/150
+        return a[tweet][1]
+        end
     
-    -- Generate Random Offset
-    math.randomseed(os.time())
-    math.random(); math.random(); math.random()
-    retweetOffset = 1 + (math.random(10)/100)
-    likeOffset = 1 + (math.random(10)/100)
-
-    -- Calculate Retweets and Likes
-    calculateRetweets = a[tweet][2]*retweetOffset*followerValue
-    calculateLikes = a[tweet][3]*likeOffset*followerValue
-    
-    -- If the tweet is from Ame
-    if (a[tweet][4] == "@raincandy_U")
-    then
-        SKIN:Bang('!SetOption', 'UserIcon', 'ImageName', "#@#Images\\Social Media\\icon_ame.png")
-    end
-
-    -- If the tweet is from Twitter
-    if (a[tweet][5] ~= nil)
-    then
-        SKIN:Bang('!SetOption', 'ViewTweet', 'Text', "View Image")
-        SKIN:Bang('!SetOption', 'ViewTweet', 'LeftMouseUpAction', a[tweet][5])
-    end
-
-    -- Set everything 
-    SKIN:Bang('!SetOption', 'RetweetCalculation', 'Formula', calculateRetweets)
-    SKIN:Bang('!SetOption', 'LikeCalculation', 'Formula', calculateLikes)
-    SKIN:Bang('!SetOption', 'UserName', 'Text', a[tweet][4])
-
-    return a[tweet][1]
-    end
-
-    -- If there is a 0 on a tweet, please remove it or replace it with something else
+        -- If there is a 0 on a tweet, please remove it or replace it with something else

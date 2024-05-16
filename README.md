@@ -1,21 +1,30 @@
 # Needy Streamer Overload Rainmeter Skins
 Rainmeter Skins inspired by the visual novel, [NEEDY STREAMER OVERLOAD](https://store.steampowered.com/app/1451940/NEEDY_STREAMER_OVERLOAD/) (also known as NEEDY GIRL OVERDOSE).
 
+This fork are all (mostly) translated into Japanese.
+
 ![Features](Preview/Features_4.png)
 
 # Skins
-- [Task Manager](#task-manager)
-- [Ame](#ame)
-- [JINE](#jine)
-- [Social Media](#social-media)
-- [Media Player](#media-player)
-- [Calendar](#calendar)
+- [Needy Streamer Overload Rainmeter Skins](#needy-streamer-overload-rainmeter-skins)
+- [Skins](#skins)
+- [Rainmeter Installation](#rainmeter-installation)
+- [Features](#features)
+  - [Task Manager](#task-manager)
+  - [Ame](#ame)
+  - [JINE](#jine)
+  - [Social Media](#social-media)
+      - [Image Sources](#image-sources)
+  - [Media Player](#media-player)
+  - [Calendar](#calendar)
     - [Weather Installation](#weather-installation)
-- [Desktop Icons](#desktop-icons)
-- [Quick Notes](#quick-notes)
-- [Sidebars](#sidebars)
-- [Medications](#medications)
-- [Trash Bin](#trash-bin)
+  - [Desktop Icons](#desktop-icons)
+  - [Quick Notes](#quick-notes)
+  - [Sidebars](#sidebars)
+  - [Medications](#medications)
+  - [Trash Bin](#trash-bin)
+- [Warning](#warning)
+- [Credits](#credits)
 
 # Rainmeter Installation
 To get the skin, you need to install Rainmeter. Go to this [page](https://www.rainmeter.net/) for installation.

@@ -1,15 +1,15 @@
 function Initialize()
     -- add a new ame JINE chat here.
         a = {
-                "ugh. worst reply",
-                "were you even paying attention???",
-                "ugh",
-                "tell me you werent paying attention without telling me you werent paying attention.",
-                "i hate that sticker",
-                "low effort response 0/10",
-                "i hate people who just send one word replies!!!",
-                "THIS what huh???",
-                "can you put some effort into replying please",
+                "その返しウザっ",
+                "ちゃんと聞いてないでしょ？？？",
+                "ウザっ",
+                "（真面目に聞いてないな・・・・・・）",
+                "イヤな返し！",
+                "返しが雑！",
+                "「それな」って使うヤツ一番キライ！",
+                "ちゃんと読んでる？？？",
+                "テキトーすぎ！",
             }
 end
 

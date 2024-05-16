@@ -1,16 +1,16 @@
 function Initialize()
     -- add a new ame JINE chat here.
         a = {
-                "RIGHT??? i knew youd understand",
-                "i am da best",
-                "right???",
-                "keep the praise coming!!!",
-                "yeees i am the best in the world",
-                "hehe. piece of cake for me!",
-                "ame is the best",
-                "G for GENIUS!!!!!!",
-                "you really just OMG at anything huh",
-                "now tell me youll never leave your awesome girlfriend!",
+                "だろ？ わかってんじゃん",
+                "最高だよーん",
+                "でしょ<3",
+                "もっと褒めて！！！",
+                "わたしは最高の女だよ",
+                "へへっ こんなもんよ",
+                "あめちゃんは最高",
+                "もっと愛をこめて！",
+                "ピの「最高」は軽いんだよな～",
+                "最高の彼女のこと一生離すなよ",
             }
 end
 
