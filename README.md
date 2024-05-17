@@ -1,7 +1,16 @@
 # Needy Streamer Overload Rainmeter Skins
 Rainmeter Skins inspired by the visual novel, [NEEDY STREAMER OVERLOAD](https://store.steampowered.com/app/1451940/NEEDY_STREAMER_OVERLOAD/) (also known as NEEDY GIRL OVERDOSE).
 
-This fork are all (mostly) translated into Japanese.
+## Difference with this fork
+- (Mostly) translated into Japanese, replaying NSO with NEEDY GIRL OVERDOSE instead and *that* livestream preview image.
+- Desktop icons
+  - Discord icon links to the native app on Windows.
+  - Web, Game, Search, Twitter icon links to specific Chrome profiles as I use 2 different profiles. (Game icon links to 2nd profile mainly dedicated for Granblue Fantasy)
+  - Some other personal fluff
+
+## TODO (if I bother)
+- Translate the weather widget into Japanese (I need to read up the API docs)
+- Check the Issues tab for other stuff
 
 ![Features](Preview/Features_4.png)
 
